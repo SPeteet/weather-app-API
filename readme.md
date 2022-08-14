@@ -1,6 +1,7 @@
 Hello and thank you for looking into my first Python Project.
 
-1. Purpose of the app
+1. Purpose of the app:
+
     a. This app allows a user to type in a city name and receive current weather information. The app returns
        the degrees in farhenheit, celcius, and returns whether it's cloudy or not. Over 200,000 cities are able to be found.
           - Note: I will be adding additional features the app returns.
