@@ -22,12 +22,12 @@ while city != 'z':
         api_data = response.json()
         clouds = api_data['weather'][0]['description']
         temperature_in_kelvin = api_data['main']['temp']
-        temperature_in_celcius = round(temperature_in_kelvin - 273.15)
+        temperature_in_celsius = round(temperature_in_kelvin - 273.15)
         temperature_in_fahrenheit = round(((temperature_in_kelvin - 273.15) * 9) / 5 + 32)
         humidity = api_data['main']['humidity']
 
         print(f'{city.title()} weather:')
-        print(f'Temperature in Celcius: {temperature_in_celcius}\u00B0')
+        print(f'Temperature in Celsius: {temperature_in_celsius}\u00B0')
         print(f'Temperature in Fahrenheit: {temperature_in_fahrenheit}\u00B0')
         print(f'Weather Description: {clouds}')
         print(f'Humidity: {humidity}%')
