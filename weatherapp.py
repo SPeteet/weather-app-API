@@ -2,7 +2,7 @@
 from dataclasses import dataclass
 import requests 
 
-API_KEY = "ac9f022136a7ba86ffdc8c5bb8106192"
+API_KEY = "" // API key goes here
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 city = ''
